@@ -1,0 +1,24 @@
+# Conda environment for LIME. scripts/setup_env.sh creates it and downloads the weights;
+# to create just the environment:
+#
+#   conda env create -f environment.yml
+#   conda activate lime
+#
+# The torch wheels come from the PyTorch cu128 index. If your driver needs a different
+# CUDA, change the extra-index-url and the two +cu128 pins to match, and leave everything
+# else alone.
+name: lime
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.8.0+cu128
+      - torchvision==0.23.0+cu128
+      - -r requirements.txt
+      - -e .

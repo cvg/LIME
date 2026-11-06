@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+logs/
+vis/
+predictions*.jsonl
+prediction*.json
+*.png
+!examples/*.png
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+build/
+weights/
+# left by an interrupted 'conda env create'
+condaenv.*.requirements.txt

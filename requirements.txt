@@ -1,0 +1,24 @@
+# The exact versions we develop with, on Python 3.11. Install torch first, with the
+# wheel matching your CUDA:
+#   pip install torch==2.8.0+cu128 torchvision==0.23.0+cu128 \
+#       --extra-index-url https://download.pytorch.org/whl/cu128
+# then these, then the package:
+#   pip install -r requirements.txt
+#   pip install -e . --no-deps
+
+transformers==4.57.1
+accelerate==1.13.0
+safetensors==0.7.0
+huggingface-hub==0.36.2
+numpy==2.4.3
+pillow==11.3.0
+
+# demo/
+viser==1.0.24
+lz4==4.4.5
+matplotlib==3.11.2
+scipy==1.17.1
+trimesh==4.12.2
+
+# tests/
+pytest==9.2.0

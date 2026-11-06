@@ -1,0 +1,47 @@
+[
+  {
+    "intent": "Find my bike.",
+    "observation_gain": "Bicycle and blue surfboard on the wall to the right of the current frame, beyond the archway. Bicycle wheel and handlebars visible. The archway in the current frame is now seen from a different angle, revealing the garage area.",
+    "pose9_mean": [
+      0.22754990045130255,
+      -0.08884896039962768,
+      0.40960761724561456,
+      0.7990495324909687,
+      0.08202295980751514,
+      -0.5846840892791748,
+      -0.07711922177970411,
+      1.006899660384655,
+      0.10067991925105453
+    ]
+  },
+  {
+    "intent": "Go to the bathroom.",
+    "observation_gain": "Bathroom with toilet and sink visible through the doorway to the right of the current frame. Blue surfboard mounted on the wall, bicycle, and potted plant on the floor are now visible. The archway in the current frame is seen from a new angle, and the wall-mounted shelf is now more clearly visible.",
+    "pose9_mean": [
+      0.6834804649353028,
+      -0.33494845433235165,
+      1.1124991651177405,
+      0.5282007016308605,
+      0.1558569867491722,
+      -0.7208533935546875,
+      -0.13441912935972214,
+      0.9896703782588243,
+      0.14319498288035393
+    ]
+  },
+  {
+    "intent": "What is on the table?",
+    "observation_gain": "A small potted plant on the table, to the right of the current frame's view, now visible. The wooden coffee table is closer, and the brown sectional sofa is seen from a slightly different angle.",
+    "pose9_mean": [
+      0.024924038145318628,
+      -0.0410099613815546,
+      0.18574730007350448,
+      1.0153014906525613,
+      0.01062685308624059,
+      0.006996942692995072,
+      -0.011609132903814316,
+      1.0135549216628075,
+      -0.03391060641407967
+    ]
+  }
+]
